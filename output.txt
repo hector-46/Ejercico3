@@ -1,0 +1,2 @@
+ERROR Fallo en módulo A
+ERROR Fallo en módulo B

@@ -1,0 +1,5 @@
+INFO Inicio del sistema
+ERROR Fallo en módulo A
+INFO Todo correcto
+ERROR Fallo en módulo B
+WARNING Algo raro

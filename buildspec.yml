@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Construyendo Docker"
+      - docker build -t filtro-app .
+      - echo "Ejecutando contenedor"
+      - docker run -v $(pwd):/app filtro-app
+
+artifacts:
+  files:
+    - output.txt
+    - backup.log
